@@ -1,0 +1,15 @@
+footer{
+    height: 20vh;
+    .footer_icon{
+       display: flex;
+       justify-content: center;
+       font-size: $menuFontSize;
+       margin: 40px;
+       gap: 30px;
+       color: $btnBgColor;
+    }
+    .footer_p{
+        text-align: center;
+        font-family: $h1FontFamily;
+    }
+}

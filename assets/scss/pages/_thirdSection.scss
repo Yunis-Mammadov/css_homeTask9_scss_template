@@ -1,0 +1,49 @@
+.third_section{
+        width: 100%;
+        height: 80vh;
+        text-align: center;
+        background-color: $btnBgColor;
+        padding-top: 80px;
+        .third_h3{
+            font-family: $fontLinksFamily;
+            font-weight: $fontLogoWeight;
+            color: $navLinksColor;
+            padding: 10px 0;
+        }
+        .third_h1{
+            font-size: $menuFontSize;
+            font-family: $h1FontFamily;
+            font-weight: $secondPWeight;
+            color: $white;
+            padding: 10px 0;
+        }
+        .cards{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-top: 100px;
+        #main_i{
+            border: 1px solid transparent;
+            font-size: $menuFontSize;
+            background-color: $white;
+            border-radius: 50%;
+            padding: 45px;
+            color: $btnBgColor;
+        }
+        h1{
+            font-size: $cardFontSize;
+            font-family: $fontLinksFamily;
+            font-weight: $fontLogoWeight;
+            padding: 10px 0;
+            color: $white;
+        }
+        p{
+            font-family: $fontLinksFamily;
+            font-weight: $secondPWeight;
+            color: $thirdPColor;
+            #heart{
+                font-size: $heartIconSize;
+            }
+        }
+}
+}

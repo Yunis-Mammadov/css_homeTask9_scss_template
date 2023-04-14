@@ -1,0 +1,35 @@
+.first_section{
+    width: 100%;
+    height: 95vh;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);     
+    background-position: left center;
+    background-size: 100%;
+    position: relative;
+    top: 70px;
+    .hero{
+    text-align: center;
+    padding: 160px 0;
+    .h1{
+        font-size: $h1FontSize;
+        font-family: $h1FontFamily;
+    }
+    p{
+        font-size: calc(1.3rem + 0.6vw);
+        font-weight: $pFontWeight;
+    }
+    .btn{
+        padding: 40px;
+    }
+    .btn button{
+        border-radius: 10px;
+        padding: 25px 45px;
+        color: $white;
+        background-color: $btnBgColor;
+        transition: 0.15s ease-in-out;
+        &:hover{
+            background-color: $btnHoverBgColor;
+            cursor: pointer;
+        }
+    }
+    }
+}

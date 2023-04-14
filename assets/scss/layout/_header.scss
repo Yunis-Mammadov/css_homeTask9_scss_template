@@ -1,0 +1,39 @@
+header{
+    border-top: 3px solid red;
+    padding: 20px 40px;
+    box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
+    background-color: $bgNavColor;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    .nav{
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    div{
+        font-size: $fontSize;
+    }
+    &-links ul{
+        display: flex;
+        font-size: $fontSize;
+        font-weight: $fontLinksWeight;
+    }
+    a{
+        font-family: $fontLinksFamily;
+        color: white;
+        padding: 40px 20px;
+        transition: .5s;
+        &:hover{
+            color: $navLinksColor;
+        }
+    }
+    .logo{
+        font-weight: $fontLogoWeight;
+        font-family: $fontLogoFamily;
+        font-size: $menuFontSize;
+        color: $navLinksColor;
+        padding: 0 40px;
+    }
+}
+}
+

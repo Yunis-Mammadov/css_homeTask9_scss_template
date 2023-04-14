@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat&family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat&family=Rajdhani:wght@500&family=Source+Sans+Pro&display=swap");
+.first_section {
+  width: 100%;
+  height: 95vh;
+  background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+  background-position: left center;
+  background-size: 100%;
+  position: relative;
+  top: 70px;
+}
+.first_section .hero {
+  text-align: center;
+  padding: 160px 0;
+}
+.first_section .hero .h1 {
+  font-size: 4rem;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.first_section .hero p {
+  font-size: calc(1.3rem + 0.6vw);
+  font-weight: 800;
+}
+.first_section .hero .btn {
+  padding: 40px;
+}
+.first_section .hero .btn button {
+  border-radius: 10px;
+  padding: 25px 45px;
+  color: white;
+  background-color: rgb(29, 128, 159);
+  transition: 0.15s ease-in-out;
+}
+.first_section .hero .btn button:hover {
+  background-color: rgb(9, 100, 159);
+  cursor: pointer;
+}
+
+.second_section {
+  width: 100%;
+  height: 45vh;
+  margin-top: 180px;
+  text-align: center;
+}
+.second_section .second_h1 {
+  font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  padding: 10px 0;
+}
+.second_section .second_p {
+  font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 200;
+  padding: 10px 0;
+}
+.second_section .btn {
+  padding: 40px;
+}
+.second_section .btn button {
+  border-radius: 10px;
+  padding: 25px 45px;
+  color: white;
+  background-color: rgb(33, 37, 41);
+  transition: 0.15s ease-in-out;
+}
+.second_section .btn button:hover {
+  background-color: rgb(77, 81, 84);
+  cursor: pointer;
+}
+
+.third_section {
+  width: 100%;
+  height: 80vh;
+  text-align: center;
+  background-color: rgb(29, 128, 159);
+  padding-top: 80px;
+}
+.third_section .third_h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  color: rgb(254, 209, 54);
+  padding: 10px 0;
+}
+.third_section .third_h1 {
+  font-size: 30px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 200;
+  color: white;
+  padding: 10px 0;
+}
+.third_section .cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+.third_section .cards #main_i {
+  border: 1px solid transparent;
+  font-size: 30px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 45px;
+  color: rgb(29, 128, 159);
+}
+.third_section .cards h1 {
+  font-size: 25px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  padding: 10px 0;
+  color: white;
+}
+.third_section .cards p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 200;
+  color: rgb(147, 210, 226);
+}
+.third_section .cards p #heart {
+  font-size: 15px;
+}
+
+.fourth_section {
+  width: 100%;
+  height: 95vh;
+  background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+  background-position: left center;
+  background-size: 100%;
+}
+.fourth_section .fourth_section_div {
+  text-align: center;
+  padding: 250px 0;
+}
+.fourth_section .fourth_section_div h1 {
+  font-size: 4rem;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.fourth_section .fourth_section_div p {
+  font-size: calc(1.3rem + 0.6vw);
+  font-weight: 800;
+}
+.fourth_section .fourth_section_div .btn {
+  padding: 40px;
+}
+.fourth_section .fourth_section_div .btn button {
+  border-radius: 10px;
+  padding: 25px 45px;
+  color: white;
+  background-color: rgb(29, 128, 159);
+  transition: 0.15s ease-in-out;
+}
+.fourth_section .fourth_section_div .btn button:hover {
+  background-color: rgb(9, 100, 159);
+  cursor: pointer;
+}
+
+.fifth_section {
+  width: 100%;
+  height: 45vh;
+  margin-top: 180px;
+  text-align: center;
+}
+.fifth_section .fifth_h1 {
+  font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  padding: 10px 0;
+}
+.fifth_section .fifth_p {
+  font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 200;
+  padding: 10px 0;
+}
+.fifth_section .btn {
+  padding: 40px;
+}
+.fifth_section .btn button {
+  border-radius: 10px;
+  padding: 25px 45px;
+  color: white;
+  background-color: rgb(33, 37, 41);
+  transition: 0.15s ease-in-out;
+}
+.fifth_section .btn button:hover {
+  background-color: rgb(77, 81, 84);
+  cursor: pointer;
+}
+
+.sixth_section .sixth_section_h1 {
+  text-align: center;
+  padding: 10px;
+  font-size: 40px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.sixth_section .sixth_section_p {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 200;
+  color: rgb(64, 89, 89);
+}
+.sixth_section .sixth_section_cards {
+  display: flex;
+}
+.sixth_section .card {
+  margin-top: 20px;
+  border: 1px solid transparent;
+}
+.sixth_section img {
+  position: relative;
+  left: 140px;
+  width: 40%;
+  border: 5px solid rgb(64, 89, 89);
+  border-radius: 50%;
+}
+.sixth_section .card h1 {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.sixth_section .card p {
+  text-align: center;
+}
+.sixth_section .card i {
+  position: relative;
+  left: 170px;
+  padding: 30px 10px;
+  font-size: 30px;
+}
+
+.seventh_section iframe {
+  width: 100%;
+  height: 50vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn button {
+  border: none;
+}
+
+header {
+  border-top: 3px solid red;
+  padding: 20px 40px;
+  box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
+  background-color: rgb(33, 37, 41);
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+header .nav {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+header .nav div {
+  font-size: 20px;
+}
+header .nav-links ul {
+  display: flex;
+  font-size: 20px;
+  font-weight: 400;
+}
+header .nav a {
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  padding: 40px 20px;
+  transition: 0.5s;
+}
+header .nav a:hover {
+  color: rgb(254, 209, 54);
+}
+header .nav .logo {
+  font-weight: 600;
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  color: rgb(254, 209, 54);
+  padding: 0 40px;
+}
+
+footer {
+  height: 20vh;
+}
+footer .footer_icon {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin: 40px;
+  gap: 30px;
+  color: rgb(29, 128, 159);
+}
+footer .footer_p {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+}/*# sourceMappingURL=main.css.map */
